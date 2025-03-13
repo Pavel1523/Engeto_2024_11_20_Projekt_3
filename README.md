@@ -120,7 +120,7 @@ Níže uvedené ukázky se týkají scrapování výsledků voleb obcí v okrese
 1. Příkaz do příkazového řádku terminálu:
 
     """"""""""""""""""""""""""
-    (jmeno_virtualniho_prostredi)C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
+    C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
     """"""""""""""""""""""""""
 
 2. Postupné informační výpisy v případě bezchybného půběhu:
