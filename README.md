@@ -89,7 +89,7 @@ Zde zadáváte jméno souboru, do kterého se zpracovaná data načtou a uloží
 
 Takže např. pro okres Hodonín bude příkaz znít následovně:
     """"""""""""""""""""""""""
-    (jmeno_virtualniho_prostredi)C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
+    C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
     """"""""""""""""""""""""""
 
 *** BĚH SKRIPTU A KONTROLA BĚHU SKRIPTU ***
