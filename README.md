@@ -64,9 +64,9 @@ Pro zaručení instalace správné verze knihovny a tím správného běhu skrip
 
 *** SPUŠTĚNÍ SKRIPTU ***
 
-Proces scrapování se spustí v aktivovaném virtuálním prostředí projektu zadáním příkazu z příkazového řádku  terminálu ve tvaru:
+Proces scrapování se spustí zadáním příkazu z příkazového řádku  terminálu ve tvaru:
     """"""""""""""""""""""""""
-    (jmeno_virtualniho_prostredi)C:\......\složka_projektu>python main.py "argument_1" "argument_2"
+    C:\......\složka_projektu>python main.py "argument_1" "argument_2"
     """"""""""""""""""""""""""
 
 Argumenty se uvádí do uvozovek a  musí být ve tvaru:
