@@ -64,9 +64,9 @@ Pro zaručení instalace správné verze knihovny a tím správného běhu skrip
 
 *** SPUŠTĚNÍ SKRIPTU ***
 
-Proces scrapování se spustí v aktivovaném virtuálním prostředí projektu zadáním příkazu z příkazového řádku  terminálu ve tvaru:
+Proces scrapování se spustí zadáním příkazu z příkazového řádku  terminálu ve tvaru:
     """"""""""""""""""""""""""
-    (jmeno_virtualniho_prostredi)C:\......\složka_projektu>python main.py "argument_1" "argument_2"
+    C:\......\složka_projektu>python main.py "argument_1" "argument_2"
     """"""""""""""""""""""""""
 
 Argumenty se uvádí do uvozovek a  musí být ve tvaru:
@@ -89,7 +89,7 @@ Zde zadáváte jméno souboru, do kterého se zpracovaná data načtou a uloží
 
 Takže např. pro okres Hodonín bude příkaz znít následovně:
     """"""""""""""""""""""""""
-    (jmeno_virtualniho_prostredi)C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
+    C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
     """"""""""""""""""""""""""
 
 *** BĚH SKRIPTU A KONTROLA BĚHU SKRIPTU ***
@@ -120,7 +120,7 @@ Níže uvedené ukázky se týkají scrapování výsledků voleb obcí v okrese
 1. Příkaz do příkazového řádku terminálu:
 
     """"""""""""""""""""""""""
-    (jmeno_virtualniho_prostredi)C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
+    C:\......\složka_projektu>python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=11&xnumnuts=6205" "vysledky_hodonin.csv"
     """"""""""""""""""""""""""
 
 2. Postupné informační výpisy v případě bezchybného půběhu:
