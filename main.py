@@ -21,8 +21,8 @@ def nastav_logovani() -> None:
 
 def inicializace() -> tuple[str, str]:
     """Ověřuje správnost vstupních argumentů."""
-    R = "\033[31m"  # Červená barva
-    RE = "\033[0m"  # Reset na výchozí barvu
+    R = "\033[31m"  # červená barva
+    RE = "\033[0m"  # reset na výchozí barvu
     if not kontrola_na_vstupu(sys.argv):
         raise SystemExit(f"{R}Neplatné vstupní argumenty!\n{RE}" + 90 * "=")
     return sys.argv[1], sys.argv[2]
@@ -86,7 +86,7 @@ def kontrola_reakce_serveru(odkaz: str) -> r.Response | None:
             logging.error(
                 f"Chyba při získávání dat ({attempt + 1}/3) z '{odkaz}': {e}"
             )
-        time.sleep(2)  # Pauza mezi pokusy
+        time.sleep(2)  # pauza mezi pokusy
     return None
 
 
@@ -97,8 +97,8 @@ def generovani_soup(res: r.Response | None) -> bs | None:
 
 def ziskani_seznamu_obci(odkaz_stranky: str) -> list:
     """Stahuje HTML se seznamem obcí a převede jej na 'soup'."""
-    R = "\033[31m"  # Červená barva
-    RE = "\033[0m"  # Reset na výchozí barvu
+    R = "\033[31m"  # červená barva
+    RE = "\033[0m"  # reset na výchozí barvu
     odpoved = kontrola_reakce_serveru(odkaz_stranky)
     if not odpoved:
         raise SystemExit(
@@ -214,7 +214,7 @@ def cistit_cislo(text: str) -> str:
 def zapis_do_csv(data: list[dict[str, str]], jmeno_souboru: str) -> None:
     """Zapisuje výsledky scrapování do soubou *.csv."""
     try:
-        G = "\033[032m"  # green
+        G = "\033[032m"  # zelená barva
         RE = "\033[0m"  # reset na výchozí barvu
         with open(
             jmeno_souboru, mode="w", encoding="utf-8", newline=""
@@ -229,9 +229,9 @@ def zapis_do_csv(data: list[dict[str, str]], jmeno_souboru: str) -> None:
 
 def main() -> None:
     """Hlavní funkce."""
-    R = "\033[31m"  # Červená barva
-    G = "\033[032m"  # green
-    RE = "\033[0m"  # Reset na výchozí barvu
+    R = "\033[31m"  # červená barva
+    G = "\033[032m"  # zelená barva
+    RE = "\033[0m"  # reset na výchozí barvu
     nastav_logovani()
     print(90 * "=")
     odkaz_stranky, nazev_souboru = inicializace()

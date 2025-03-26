@@ -133,11 +133,11 @@ Níže uvedené ukázky se týkají scrapování výsledků voleb obcí v okrese
 2. Postupné informační výpisy v případě bezchybného půběhu:
 
         ============================================================================================
-        2025-03-22 11:07:05,587 - INFO - Provotní vstupní údaje prověřeny.
-        2025-03-22 11:07:05,587 - INFO - Proces scrapování dat zahájen.
-        2025-03-22 11:07:05,587 - INFO - Stahují se data ze serveru, čekej ...
-        2025-03-22 11:07:35,518 - INFO - Data se zapsala do souboru: 'vysledky_hodonin.csv'
-        2025-03-22 11:07:35,519 - INFO - Scraping je ukončen!
+        2025-03-26 11:07:05,587 - INFO - Provotní vstupní údaje prověřeny.
+        2025-03-26 11:07:05,587 - INFO - Proces scrapování dat zahájen.
+        2025-03-26 11:07:05,587 - INFO - Stahují se data ze serveru, čekej ...
+        2025-03-26 11:07:35,518 - INFO - Data se zapsala do souboru: 'vysledky_hodonin.csv'
+        2025-03-26 11:07:35,519 - INFO - Scraping je ukončen!
         ===========================================================================================
 
 3. Příklady informačního výpisu pro chybová hlášení 
